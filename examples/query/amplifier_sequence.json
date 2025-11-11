@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "Power-On Test",
+    "Measurements": [
+      { "Name": "Supply Voltage", "Min_Value": 14.5, "Max_Value": 15.5, "Units": "V" },
+      { "Name": "Standby Current", "Min_Value": 0.01, "Max_Value": 0.05, "Units": "A" },
+      { "Name": "Enable Signal", "Min_Value": 0, "Max_Value": 10, "Units": "" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 22, "Max_Value": 25, "Units": "degrees C" },
+      { "Name": "Relative Humidity", "Min_Value": 45, "Max_Value": 55, "Units": "%" },
+      { "Name": "Test Load", "Min_Value": 7.8, "Max_Value": 8.2, "Units": "Ohms" }
+    ]
+  },
+  {
+    "Name": "DC Offset",
+    "Measurements": [
+      { "Name": "Left Channel DC Offset", "Min_Value": -5, "Max_Value": 5, "Units": "mV" },
+      { "Name": "Right Channel DC Offset", "Min_Value": -5, "Max_Value": 5, "Units": "mV" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 22, "Max_Value": 25, "Units": "degrees C" },
+      { "Name": "Relative Humidity", "Min_Value": 45, "Max_Value": 55, "Units": "%" },
+      { "Name": "Test Load", "Min_Value": 7.8, "Max_Value": 8.2, "Units": "Ohms" }
+    ]
+  },
+  {
+    "Name": "Frequency Response",
+    "Measurements": [
+      { "Name": "20Hz Response", "Min_Value": -1, "Max_Value": 1, "Units": "dB" },
+      { "Name": "1kHz Response", "Min_Value": -1, "Max_Value": 1, "Units": "dB" },
+      { "Name": "10kHz Response", "Min_Value": -1, "Max_Value": 1, "Units": "dB" },
+      { "Name": "20kHz Response", "Min_Value": -1, "Max_Value": 1, "Units": "dB" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 22, "Max_Value": 25, "Units": "degrees C" },
+      { "Name": "Relative Humidity", "Min_Value": 45, "Max_Value": 55, "Units": "%" },
+      { "Name": "Test Load", "Min_Value": 7.8, "Max_Value": 8.2, "Units": "Ohms" }
+    ]
+  },
+  {
+    "Name": "THD+N Test",
+    "Measurements": [
+      { "Name": "1kHz THD+N Left", "Min_Value": 0.001, "Max_Value": 0.01, "Units": "%" },
+      { "Name": "1kHz THD+N Right", "Min_Value": 0.001, "Max_Value": 0.01, "Units": "%" },
+      { "Name": "10kHz THD+N Left", "Min_Value": 0.001, "Max_Value": 0.01, "Units": "%" },
+      { "Name": "10kHz THD+N Right", "Min_Value": 0.001, "Max_Value": 0.01, "Units": "%" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 22, "Max_Value": 25, "Units": "degrees C" },
+      { "Name": "Relative Humidity", "Min_Value": 45, "Max_Value": 55, "Units": "%" },
+      { "Name": "Test Load", "Min_Value": 7.8, "Max_Value": 8.2, "Units": "Ohms" }
+    ]
+  },
+  {
+    "Name": "Power Output",
+    "Measurements": [
+      { "Name": "Max Power Left", "Min_Value": 45, "Max_Value": 55, "Units": "W" },
+      { "Name": "Max Power Right", "Min_Value": 45, "Max_Value": 55, "Units": "W" },
+      { "Name": "Power at 1% THD", "Min_Value": 40, "Max_Value": 50, "Units": "W" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 22, "Max_Value": 25, "Units": "degrees C" },
+      { "Name": "Relative Humidity", "Min_Value": 45, "Max_Value": 55, "Units": "%" },
+      { "Name": "Test Load", "Min_Value": 7.8, "Max_Value": 8.2, "Units": "Ohms" }
+    ]
+  },
+  {
+    "Name": "Signal-to-Noise",
+    "Measurements": [
+      { "Name": "SNR Left Channel", "Min_Value": 95, "Max_Value": 105, "Units": "dB" },
+      { "Name": "SNR Right Channel", "Min_Value": 95, "Max_Value": 105, "Units": "dB" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 22, "Max_Value": 25, "Units": "degrees C" },
+      { "Name": "Relative Humidity", "Min_Value": 45, "Max_Value": 55, "Units": "%" },
+      { "Name": "Test Load", "Min_Value": 7.8, "Max_Value": 8.2, "Units": "Ohms" }
+    ]
+  }
+]
