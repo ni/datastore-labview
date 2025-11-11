@@ -1,15 +1,13 @@
-# GitHub Repo Template
+# Datastore LabVIEW Examples
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+This repo contains the source code for examples that show how to use the LabVIEW API of NI Measurement Data Services.
+These examples do not go through any build process, you can simply copy them to a system that has the necessary
+software installed.
 
-## Using GitHub Repo Template
+## Running the Examples
 
 1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
-
-TODO: describe a project in detail, what it does, how to use it, etc.
+2. Copy the contents of `src/examples` to a system that has LabVIEW 2024 (or newer) and NI Measurement Data Services installed. 
+3. Open an example project and VI and simply run it.
+4. Be aware that running these examples will publish data to the default datastore location on your system. Data that is
+published by a certain example may show up in queries from other examples or from your own Measurement Data Services application.

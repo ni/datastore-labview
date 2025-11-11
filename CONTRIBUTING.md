@@ -1,11 +1,11 @@
-# Contributing to \<reponame\> 
+# Contributing to datastore-examples-labview 
 
-Contributions to \<reponame\> are welcome from all!
+Contributions to datastore-examples-labview are welcome from all!
 
-\<reponame\> is managed via [git](https://git-scm.com), with the canonical upstream
-repository hosted on [GitHub](https://github.com/ni/<reponame>/).
+datastore-examples-labview is managed via [git](https://git-scm.com), with the canonical upstream
+repository hosted on [GitHub](https://github.com/ni/datastore-examples-labview/).
 
-\<reponame\> follows a pull-request model for development.  If you wish to
+datastore-examples-labview follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -21,11 +21,19 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- TODO: include build steps here.
+To make changes or additions to these examples follow these steps:
+- Install the oldest supported version of LabVIEW that is supported by NI Measurement Data Services.
+Right now, that is LabVIEW 2024. All LabVIEW project and VI changes should be made in this version.
+- Install the latest released version of NI Measurement Data Services if possible. If you need features
+from a newer un-released version, that should be fine.
+- Clone the repository to your system.
+- Open and edit LabVIEW projects and VIs as needed.
+- Submit a Pull Request with your changes. TODO: Can/should we enable VI diff for this repo?
 
 # Testing
 
-- TODO: include testing steps here.
+Currently, there are no unit or acceptance tests for this repo. When making changes to the example
+projects and VIs, please ensure that they are saved in a runnable state with no known errors.
 
 # Developer Certificate of Origin (DCO)
 
