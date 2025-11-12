@@ -1,0 +1,69 @@
+[
+  {
+    "Name": "Initialize",
+    "Measurements": [
+      { "Name": "Configure DMM", "Min_Value": 0, "Max_Value": 10, "Units": "" },
+      { "Name": "Set Load Conditions", "Min_Value": 0, "Max_Value": 10, "Units": "" },
+      { "Name": "Warm-up Period", "Min_Value": 60, "Max_Value": 600, "Units": "s" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 21, "Max_Value": 26, "Units": "degrees C" },
+      { "Name": "Barometric Pressure", "Min_Value": 995, "Max_Value": 1015, "Units": "hPa" },
+      { "Name": "Line Frequency", "Min_Value": 59.9, "Max_Value": 60.1, "Units": "Hz" }
+    ]
+  },
+  {
+    "Name": "Input Voltage Test",
+    "Measurements": [
+      { "Name": "Measure Input Voltage", "Min_Value": 115, "Max_Value": 125, "Units": "V" },
+      { "Name": "Measure Input Current", "Min_Value": 0.8, "Max_Value": 1.2, "Units": "A" },
+      { "Name": "Calculate Input Power", "Min_Value": 50, "Max_Value": 150, "Units": "W" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 21, "Max_Value": 26, "Units": "degrees C" },
+      { "Name": "Barometric Pressure", "Min_Value": 995, "Max_Value": 1015, "Units": "hPa" },
+      { "Name": "Line Frequency", "Min_Value": 59.9, "Max_Value": 60.1, "Units": "Hz" }
+    ]
+  },
+  {
+    "Name": "Output Voltage Test",
+    "Measurements": [
+      { "Name": "Measure 5V Rail", "Min_Value": 4.95, "Max_Value": 5.05, "Units": "V" },
+      { "Name": "Measure 12V Rail", "Min_Value": 11.8, "Max_Value": 12.2, "Units": "V" },
+      { "Name": "Measure -12V Rail", "Min_Value": -12.2, "Max_Value": -11.8, "Units": "V" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 21, "Max_Value": 26, "Units": "degrees C" },
+      { "Name": "Barometric Pressure", "Min_Value": 995, "Max_Value": 1015, "Units": "hPa" },
+      { "Name": "Line Frequency", "Min_Value": 59.9, "Max_Value": 60.1, "Units": "Hz" }
+    ]
+  },
+  {
+    "Name": "Load Regulation",
+    "Measurements": [
+      { "Name": "No Load Test", "Min_Value": 4.95, "Max_Value": 5.05, "Units": "V" },
+      { "Name": "25% Load Test", "Min_Value": 4.9, "Max_Value": 5.05, "Units": "V" },
+      { "Name": "50% Load Test", "Min_Value": 4.85, "Max_Value": 5.05, "Units": "V" },
+      { "Name": "75% Load Test", "Min_Value": 4.8, "Max_Value": 5.05, "Units": "V" },
+      { "Name": "Full Load Test", "Min_Value": 4.75, "Max_Value": 5.05, "Units": "V" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 21, "Max_Value": 26, "Units": "degrees C" },
+      { "Name": "Barometric Pressure", "Min_Value": 995, "Max_Value": 1015, "Units": "hPa" },
+      { "Name": "Line Frequency", "Min_Value": 59.9, "Max_Value": 60.1, "Units": "Hz" }
+    ]
+  },
+  {
+    "Name": "Ripple Measurement",
+    "Measurements": [
+      { "Name": "5V Ripple", "Min_Value": 10, "Max_Value": 50, "Units": "mV" },
+      { "Name": "12V Ripple", "Min_Value": 10, "Max_Value": 50, "Units": "mV" },
+      { "Name": "-12V Ripple", "Min_Value": 10, "Max_Value": 50, "Units": "mV" }
+    ],
+    "Conditions": [
+      { "Name": "Ambient Temperature", "Min_Value": 21, "Max_Value": 26, "Units": "degrees C" },
+      { "Name": "Barometric Pressure", "Min_Value": 995, "Max_Value": 1015, "Units": "hPa" },
+      { "Name": "Line Frequency", "Min_Value": 59.9, "Max_Value": 60.1, "Units": "Hz" }
+    ]
+  }
+]
