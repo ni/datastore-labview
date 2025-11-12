@@ -368,17 +368,17 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 			</Item>
-			<Item Name="_create_hardware_items_and_aliases.vi" Type="VI" URL="../_create_hardware_items_and_aliases.vi"/>
-			<Item Name="_create_metadata_and_aliases.vi" Type="VI" URL="../_create_metadata_and_aliases.vi"/>
-			<Item Name="_create_operators_and_aliases.vi" Type="VI" URL="../_create_operators_and_aliases.vi"/>
-			<Item Name="_create_software_items_and_aliases.vi" Type="VI" URL="../_create_software_items_and_aliases.vi"/>
-			<Item Name="_create_test_stations_and_aliases.vi" Type="VI" URL="../_create_test_stations_and_aliases.vi"/>
-			<Item Name="_create_uut_instances_and_aliases.vi" Type="VI" URL="../_create_uut_instances_and_aliases.vi"/>
-			<Item Name="_create_uuts_and_aliases.vi" Type="VI" URL="../_create_uuts_and_aliases.vi"/>
+			<Item Name="Create Hardware Items and Aliases.vi" Type="VI" URL="../Create Hardware Items and Aliases.vi"/>
+			<Item Name="Create Metadata and Aliases.vi" Type="VI" URL="../Create Metadata and Aliases.vi"/>
+			<Item Name="Create Operators and Aliases.vi" Type="VI" URL="../Create Operators and Aliases.vi"/>
+			<Item Name="Create Software Items and Aliases.vi" Type="VI" URL="../Create Software Items and Aliases.vi"/>
+			<Item Name="Create Test Stations and Aliases.vi" Type="VI" URL="../Create Test Stations and Aliases.vi"/>
+			<Item Name="Create UUT Instances and Aliases.vi" Type="VI" URL="../Create UUT Instances and Aliases.vi"/>
+			<Item Name="Create UUTs and Aliases.vi" Type="VI" URL="../Create UUTs and Aliases.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="test_result_info.ctl" Type="VI" URL="../test_result_info.ctl"/>
+			<Item Name="Test Result Info.ctl" Type="VI" URL="../Test Result Info.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
