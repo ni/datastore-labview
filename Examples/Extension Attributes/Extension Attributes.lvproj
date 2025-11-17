@@ -15,6 +15,7 @@
 		<Item Name="Extension Attributes.vi" Type="VI" URL="../Extension Attributes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Data Store Client.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp">
 					<Item Name="Data Store Client Wrapper" Type="Folder">
 						<Item Name="Classes" Type="Folder">
