@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/scope.schema.json",
+  "title": "scope schema",
+  "description": "A schema for scope hardware items",
+  "type": "object",
+  "properties": {
+    "hardware_item": {
+      "type": "object",
+      "properties": {
+        "bandwidth": {
+          "type": "string"
+        },
+        "manufacture_date": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
