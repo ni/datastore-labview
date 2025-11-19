@@ -369,7 +369,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Publish and Read Back Data.vi" Type="VI" URL="../Publish and Read Back Data.vi"/>
+			<Item Name="State Data.ctl" Type="VI" URL="../State Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
