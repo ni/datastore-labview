@@ -17,6 +17,7 @@
 		<Item Name="Query Measurements.vi" Type="VI" URL="../Query Measurements.vi"/>
 		<Item Name="Query Metadata.vi" Type="VI" URL="../Query Metadata.vi"/>
 		<Item Name="Query Steps.vi" Type="VI" URL="../Query Steps.vi"/>
+		<Item Name="README.txt" Type="Document" URL="../README.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Data Store Client.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp">
