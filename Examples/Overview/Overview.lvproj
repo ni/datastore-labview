@@ -12,11 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Publish Data.vi" Type="VI" URL="../Publish Data.vi"/>
-		<Item Name="Query Conditions.vi" Type="VI" URL="../Query Conditions.vi"/>
-		<Item Name="Query Measurements.vi" Type="VI" URL="../Query Measurements.vi"/>
-		<Item Name="Query Metadata.vi" Type="VI" URL="../Query Metadata.vi"/>
-		<Item Name="Query Steps.vi" Type="VI" URL="../Query Steps.vi"/>
+		<Item Name="Overview.vi" Type="VI" URL="../Overview.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Data Store Client.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp">
@@ -361,24 +357,14 @@
 					<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				</Item>
 				<Item Name="NI Metadata Types.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata/NI Metadata Types.lvlib"/>
-				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
-				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
-				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
-				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 			</Item>
-			<Item Name="_create_hardware_items_and_aliases.vi" Type="VI" URL="../_create_hardware_items_and_aliases.vi"/>
-			<Item Name="_create_metadata_and_aliases.vi" Type="VI" URL="../_create_metadata_and_aliases.vi"/>
-			<Item Name="_create_operators_and_aliases.vi" Type="VI" URL="../_create_operators_and_aliases.vi"/>
-			<Item Name="_create_software_items_and_aliases.vi" Type="VI" URL="../_create_software_items_and_aliases.vi"/>
-			<Item Name="_create_test_stations_and_aliases.vi" Type="VI" URL="../_create_test_stations_and_aliases.vi"/>
-			<Item Name="_create_uut_instances_and_aliases.vi" Type="VI" URL="../_create_uut_instances_and_aliases.vi"/>
-			<Item Name="_create_uuts_and_aliases.vi" Type="VI" URL="../_create_uuts_and_aliases.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="test_result_info.ctl" Type="VI" URL="../test_result_info.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="State Data.ctl" Type="VI" URL="../State Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

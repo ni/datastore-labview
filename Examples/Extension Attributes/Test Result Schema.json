@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/session.schema.json",
+  "title": "test result schema",
+  "description": "A schema for test results",
+  "type": "object",
+  "properties": {
+    "test_result": {
+      "type": "object",
+      "properties": {
+        "manufacture_date": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

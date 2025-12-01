@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/socket.schema.json",
+  "title": "socket schema",
+  "description": "A schema for socket hardware items",
+  "type": "object",
+  "properties": {
+    "hardware_item": {
+      "type": "object",
+      "properties": {
+        "socket_number": {
+          "type": "string"
+        },
+        "manufacture_date": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

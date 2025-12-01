@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/cable.schema.json",
+  "title": "cable schema",
+  "description": "A schema for cable hardware items",
+  "type": "object",
+  "properties": {
+    "hardware_item": {
+      "type": "object",
+      "properties": {
+        "cable_length": {
+          "type": "string"
+        },
+        "manufacture_date": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
