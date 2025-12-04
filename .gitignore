@@ -1,3 +1,4 @@
+
 # Libraries
 *.llb
 
@@ -15,6 +16,9 @@
 *.lvlps
 .cache/
 .vs/
+
+# Temporary Data
+**/temp_data/
 
 # Builds
 /Build Output/
