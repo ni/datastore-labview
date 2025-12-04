@@ -1,0 +1,1 @@
+This folder contains the data that has been published using the Data Store Service APIs. The data has been stored in TDMS files. Modification of these TDMS files should only be done through the Data Store Service APIs. NI DIAdem or similar applications can be used to read and analyze the files, but they should not be used to modify the files.
