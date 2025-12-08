@@ -246,6 +246,7 @@
 					<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 					<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				</Item>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Metadata Store Client.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp">
 					<Item Name="Metadata Store Client Wrapper" Type="Folder">
@@ -274,6 +275,10 @@
 							<Item Name="Delete Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Delete Alias.vi"/>
 							<Item Name="Get Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Alias.vi"/>
 							<Item Name="Query Aliases.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Aliases.vi"/>
+						</Item>
+						<Item Name="Create Metadata from JSON Document Instances" Type="Folder">
+							<Item Name="Create Metadata from JSON Document (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (Path).vi"/>
+							<Item Name="Create Metadata from JSON Document (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (String).vi"/>
 						</Item>
 						<Item Name="Create Metadata Instances" Type="Folder">
 							<Item Name="Create Hardware Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Hardware Item.vi"/>
@@ -304,9 +309,11 @@
 							<Item Name="Recreate Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Recreate Client.vi"/>
 						</Item>
 						<Item Name="Helpers" Type="Folder">
+							<Item Name="Convert From gRPC Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Convert From gRPC Alias.vi"/>
+							<Item Name="Convert From gRPC Metadata Collection.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Convert From gRPC Metadata Collection.vi"/>
 							<Item Name="Create Alias (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (gRPC).vi"/>
-							<Item Name="Register Schema.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema.vim"/>
-							<Item Name="Translate Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Translate Alias.vi"/>
+							<Item Name="Create Metadata from JSON Document (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (gRPC).vim"/>
+							<Item Name="Register Schema (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (gRPC).vim"/>
 						</Item>
 						<Item Name="Query Metadata Instances" Type="Folder">
 							<Item Name="Query Hardware Items.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Hardware Items.vi"/>
@@ -327,6 +334,10 @@
 							<Item Name="List Schemas.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/List Schemas.vi"/>
 							<Item Name="Register Schema.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema.vi"/>
 						</Item>
+						<Item Name="Typedefs" Type="Folder">
+							<Item Name="Metadata Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Metadata Collection.ctl"/>
+						</Item>
+						<Item Name="Create Metadata from JSON Document.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document.vi"/>
 						<Item Name="Create Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata.vi"/>
 						<Item Name="Get Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Metadata.vi"/>
 						<Item Name="Query Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Metadata.vi"/>
@@ -358,7 +369,13 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Environment Values.ctl" Type="VI" URL="../../Common/Environment Values.ctl"/>
+			<Item Name="Initialize Data Store Paths.vi" Type="VI" URL="../../Common/Initialize Data Store Paths.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -366,7 +383,10 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read Environment Variable.vi" Type="VI" URL="../../Common/Read Environment Variable.vi"/>
+			<Item Name="Restore Data Store Paths.vi" Type="VI" URL="../../Common/Restore Data Store Paths.vi"/>
 			<Item Name="State Data.ctl" Type="VI" URL="../State Data.ctl"/>
+			<Item Name="Write Environment Variable.vi" Type="VI" URL="../../Common/Write Environment Variable.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
