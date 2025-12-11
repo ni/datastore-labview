@@ -364,6 +364,7 @@
 					<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 					<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				</Item>
+				<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
 				<Item Name="NI Metadata Types.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata/NI Metadata Types.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
