@@ -14,7 +14,7 @@ software installed.
 ## Running the Examples
 
 1. Clone or download this repository, specifically the contents of the `Examples` directory.
-4. Open an example project and VI and run it.
+2. Open an example project and VI and run it.
 
 ## Note
 
