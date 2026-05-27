@@ -13,6 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Publish Data.vi" Type="VI" URL="../Publish Data.vi"/>
+		<Item Name="Publish State Data.ctl" Type="VI" URL="../Publish State Data.ctl"/>
+		<Item Name="Publish_States.ctl" Type="VI" URL="../Publish_States.ctl"/>
 		<Item Name="Query Conditions.vi" Type="VI" URL="../Query Conditions.vi"/>
 		<Item Name="Query Measurements.vi" Type="VI" URL="../Query Measurements.vi"/>
 		<Item Name="Query Metadata.vi" Type="VI" URL="../Query Metadata.vi"/>
@@ -121,20 +123,20 @@
 							<Item Name="Publish Measurement Batch (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (String Array).vi"/>
 						</Item>
 						<Item Name="Publish Measurement Instances" Type="Folder">
-							<Item Name="Publish Measurement (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (Boolean Array).vi"/>
 							<Item Name="Publish Measurement (Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (Boolean).vi"/>
-							<Item Name="Publish Measurement (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL Analog Waveform).vi"/>
+							<Item Name="Publish Measurement (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL).vi"/>
+							<Item Name="Publish Measurement (I32).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (I32).vi"/>
+							<Item Name="Publish Measurement (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (String).vi"/>
+							<Item Name="Publish Measurement (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (Boolean Array).vi"/>
 							<Item Name="Publish Measurement (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL Array).vi"/>
+							<Item Name="Publish Measurement (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (I32 Array).vi"/>
+							<Item Name="Publish Measurement (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (String Array).vi"/>
+							<Item Name="Publish Measurement (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL Analog Waveform).vi"/>
 							<Item Name="Publish Measurement (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL Complex Waveform).vi"/>
 							<Item Name="Publish Measurement (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL Spectrum).vi"/>
-							<Item Name="Publish Measurement (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (DBL).vi"/>
 							<Item Name="Publish Measurement (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (Digital Waveform).vi"/>
 							<Item Name="Publish Measurement (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (I16 Analog Waveform).vi"/>
 							<Item Name="Publish Measurement (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (I16 Complex Waveform).vi"/>
-							<Item Name="Publish Measurement (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (I32 Array).vi"/>
-							<Item Name="Publish Measurement (I32).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (I32).vi"/>
-							<Item Name="Publish Measurement (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (String Array).vi"/>
-							<Item Name="Publish Measurement (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (String).vi"/>
 							<Item Name="Publish Measurement (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (XY).vi"/>
 						</Item>
 						<Item Name="Get Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Measurement.vi"/>
@@ -151,29 +153,29 @@
 						</Item>
 						<Item Name="Read Data from Measurement Instances" Type="Folder">
 							<Item Name="Read Data from Measurement (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (Boolean Array).vi"/>
-							<Item Name="Read Data from Measurement (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Analog Waveform).vi"/>
 							<Item Name="Read Data from Measurement (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Array).vi"/>
+							<Item Name="Read Data from Measurement (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I32 Array).vi"/>
+							<Item Name="Read Data from Measurement (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (String Array).vi"/>
+							<Item Name="Read Data from Measurement (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Analog Waveform).vi"/>
 							<Item Name="Read Data from Measurement (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Complex Waveform).vi"/>
 							<Item Name="Read Data from Measurement (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Spectrum).vi"/>
 							<Item Name="Read Data from Measurement (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (Digital Waveform).vi"/>
 							<Item Name="Read Data from Measurement (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I16 Analog Waveform).vi"/>
 							<Item Name="Read Data from Measurement (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I16 Complex Waveform).vi"/>
-							<Item Name="Read Data from Measurement (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I32 Array).vi"/>
-							<Item Name="Read Data from Measurement (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (String Array).vi"/>
 							<Item Name="Read Data from Measurement (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (XY).vi"/>
 						</Item>
 						<Item Name="Read Data Instances" Type="Folder">
 							<Item Name="Read Data (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (Boolean Array).vi"/>
-							<Item Name="Read Data (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I16 Analog Waveform).vi"/>
-							<Item Name="Read Data (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (XY).vi"/>
-							<Item Name="Read Data (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I16 Complex Waveform).vi"/>
-							<Item Name="Read Data (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (String Array).vi"/>
-							<Item Name="Read Data (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I32 Array).vi"/>
-							<Item Name="Read Data (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Analog Waveform).vi"/>
 							<Item Name="Read Data (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Array).vi"/>
+							<Item Name="Read Data (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I32 Array).vi"/>
+							<Item Name="Read Data (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (String Array).vi"/>
+							<Item Name="Read Data (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Analog Waveform).vi"/>
 							<Item Name="Read Data (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Complex Waveform).vi"/>
 							<Item Name="Read Data (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Spectrum).vi"/>
 							<Item Name="Read Data (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (Digital Waveform).vi"/>
+							<Item Name="Read Data (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I16 Analog Waveform).vi"/>
+							<Item Name="Read Data (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I16 Complex Waveform).vi"/>
+							<Item Name="Read Data (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (XY).vi"/>
 						</Item>
 						<Item Name="Read Data from Condition.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Condition.vi"/>
 						<Item Name="Read Data from Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement.vi"/>
@@ -208,7 +210,6 @@
 					<Item Name="Constants.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Constants.vi"/>
 					<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 					<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
-					<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
 					<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 					<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 					<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -253,109 +254,104 @@
 					<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 					<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				</Item>
-				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Metadata Store Client.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp">
-					<Item Name="Metadata Store Client Wrapper" Type="Folder">
-						<Item Name="Aliases" Type="Folder">
-							<Item Name="Create Alias Instances" Type="Folder">
-								<Item Name="Create Alias (ID - Hardware Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Hardware Item).vi"/>
-								<Item Name="Create Alias (ID - Operator).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Operator).vi"/>
-								<Item Name="Create Alias (ID - Software Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Software Item).vi"/>
-								<Item Name="Create Alias (ID - Test Adapter).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test Adapter).vi"/>
-								<Item Name="Create Alias (ID - Test Description).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test Description).vi"/>
-								<Item Name="Create Alias (ID - Test Station).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test Station).vi"/>
-								<Item Name="Create Alias (ID - Test).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test).vi"/>
-								<Item Name="Create Alias (ID - UUT Instance).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - UUT Instance).vi"/>
-								<Item Name="Create Alias (ID - UUT).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - UUT).vi"/>
-								<Item Name="Create Alias (Metadata - Hardware Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Hardware Item).vi"/>
-								<Item Name="Create Alias (Metadata - Operator).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Operator).vi"/>
-								<Item Name="Create Alias (Metadata - Software Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Software Item).vi"/>
-								<Item Name="Create Alias (Metadata - Test Adapter).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test Adapter).vi"/>
-								<Item Name="Create Alias (Metadata - Test Description).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test Description).vi"/>
-								<Item Name="Create Alias (Metadata - Test Station).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test Station).vi"/>
-								<Item Name="Create Alias (Metadata - Test).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test).vi"/>
-								<Item Name="Create Alias (Metadata - UUT Instance).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - UUT Instance).vi"/>
-								<Item Name="Create Alias (Metadata - UUT).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - UUT).vi"/>
-							</Item>
-							<Item Name="Create Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias.vi"/>
-							<Item Name="Delete Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Delete Alias.vi"/>
-							<Item Name="Get Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Alias.vi"/>
-							<Item Name="Query Aliases.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Aliases.vi"/>
+					<Item Name="Aliases" Type="Folder">
+						<Item Name="Create Alias Instances" Type="Folder">
+							<Item Name="Create Alias (ID - Hardware Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Hardware Item).vi"/>
+							<Item Name="Create Alias (ID - Operator).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Operator).vi"/>
+							<Item Name="Create Alias (ID - Software Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Software Item).vi"/>
+							<Item Name="Create Alias (ID - Test Adapter).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test Adapter).vi"/>
+							<Item Name="Create Alias (ID - Test Description).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test Description).vi"/>
+							<Item Name="Create Alias (ID - Test Station).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test Station).vi"/>
+							<Item Name="Create Alias (ID - Test).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - Test).vi"/>
+							<Item Name="Create Alias (ID - UUT Instance).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - UUT Instance).vi"/>
+							<Item Name="Create Alias (ID - UUT).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (ID - UUT).vi"/>
+							<Item Name="Create Alias (Metadata - Hardware Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Hardware Item).vi"/>
+							<Item Name="Create Alias (Metadata - Operator).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Operator).vi"/>
+							<Item Name="Create Alias (Metadata - Software Item).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Software Item).vi"/>
+							<Item Name="Create Alias (Metadata - Test Adapter).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test Adapter).vi"/>
+							<Item Name="Create Alias (Metadata - Test Description).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test Description).vi"/>
+							<Item Name="Create Alias (Metadata - Test Station).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test Station).vi"/>
+							<Item Name="Create Alias (Metadata - Test).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - Test).vi"/>
+							<Item Name="Create Alias (Metadata - UUT Instance).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - UUT Instance).vi"/>
+							<Item Name="Create Alias (Metadata - UUT).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (Metadata - UUT).vi"/>
 						</Item>
-						<Item Name="Create Metadata from JSON Document Instances" Type="Folder">
-							<Item Name="Create Metadata from JSON Document (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (Path).vi"/>
-							<Item Name="Create Metadata from JSON Document (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (String).vi"/>
+						<Item Name="Create Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias.vi"/>
+						<Item Name="Delete Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Delete Alias.vi"/>
+						<Item Name="Get Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Alias.vi"/>
+						<Item Name="Query Aliases.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Aliases.vi"/>
+					</Item>
+					<Item Name="Create Metadata from JSON Document Instances" Type="Folder">
+						<Item Name="Create Metadata from JSON Document (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (Path).vi"/>
+						<Item Name="Create Metadata from JSON Document (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (String).vi"/>
+					</Item>
+					<Item Name="Create Metadata Instances" Type="Folder">
+						<Item Name="Create Hardware Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Hardware Item.vi"/>
+						<Item Name="Create Operator.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Operator.vi"/>
+						<Item Name="Create Software Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Software Item.vi"/>
+						<Item Name="Create Test Adapter.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test Adapter.vi"/>
+						<Item Name="Create Test Description.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test Description.vi"/>
+						<Item Name="Create Test Station.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test Station.vi"/>
+						<Item Name="Create Test.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test.vi"/>
+						<Item Name="Create UUT Instance.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create UUT Instance.vi"/>
+						<Item Name="Create UUT.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create UUT.vi"/>
+					</Item>
+					<Item Name="Get Metadata Instances" Type="Folder">
+						<Item Name="Get Hardware Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Hardware Item.vi"/>
+						<Item Name="Get Operator.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Operator.vi"/>
+						<Item Name="Get Software Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Software Item.vi"/>
+						<Item Name="Get Test Adapter.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test Adapter.vi"/>
+						<Item Name="Get Test Description.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test Description.vi"/>
+						<Item Name="Get Test Station.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test Station.vi"/>
+						<Item Name="Get Test.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test.vi"/>
+						<Item Name="Get UUT Instance.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get UUT Instance.vi"/>
+						<Item Name="Get UUT.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get UUT.vi"/>
+					</Item>
+					<Item Name="gRPC Client" Type="Folder">
+						<Item Name="Create Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Client.vi"/>
+						<Item Name="Destroy Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Destroy Client.vi"/>
+						<Item Name="Metadata Store Client FGV.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Metadata Store Client FGV.vi"/>
+						<Item Name="Recreate Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Recreate Client.vi"/>
+					</Item>
+					<Item Name="Helpers" Type="Folder">
+						<Item Name="Convert From gRPC Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Convert From gRPC Alias.vi"/>
+						<Item Name="Convert From gRPC Metadata Collection.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Convert From gRPC Metadata Collection.vi"/>
+						<Item Name="Create Alias (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (gRPC).vi"/>
+						<Item Name="Create Metadata from JSON Document (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (gRPC).vim"/>
+						<Item Name="Register Schema (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (gRPC).vim"/>
+					</Item>
+					<Item Name="Query Metadata Instances" Type="Folder">
+						<Item Name="Query Hardware Items.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Hardware Items.vi"/>
+						<Item Name="Query Operators.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Operators.vi"/>
+						<Item Name="Query Software Items.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Software Items.vi"/>
+						<Item Name="Query Test Adapters.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Test Adapters.vi"/>
+						<Item Name="Query Test Descriptions.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Test Descriptions.vi"/>
+						<Item Name="Query Test Stations.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Test Stations.vi"/>
+						<Item Name="Query Tests.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Tests.vi"/>
+						<Item Name="Query UUT Instances.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query UUT Instances.vi"/>
+						<Item Name="Query UUTs.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query UUTs.vi"/>
+					</Item>
+					<Item Name="Schemas" Type="Folder">
+						<Item Name="Register Schema Instances" Type="Folder">
+							<Item Name="Register Schema (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (Path).vi"/>
+							<Item Name="Register Schema (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (String).vi"/>
 						</Item>
-						<Item Name="Create Metadata Instances" Type="Folder">
-							<Item Name="Create Hardware Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Hardware Item.vi"/>
-							<Item Name="Create Operator.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Operator.vi"/>
-							<Item Name="Create Software Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Software Item.vi"/>
-							<Item Name="Create Test Adapter.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test Adapter.vi"/>
-							<Item Name="Create Test Description.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test Description.vi"/>
-							<Item Name="Create Test Station.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test Station.vi"/>
-							<Item Name="Create Test.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Test.vi"/>
-							<Item Name="Create UUT Instance.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create UUT Instance.vi"/>
-							<Item Name="Create UUT.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create UUT.vi"/>
-						</Item>
-						<Item Name="Get Metadata Instances" Type="Folder">
-							<Item Name="Get Hardware Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Hardware Item.vi"/>
-							<Item Name="Get Operator.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Operator.vi"/>
-							<Item Name="Get Software Item.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Software Item.vi"/>
-							<Item Name="Get Test Adapter.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test Adapter.vi"/>
-							<Item Name="Get Test Description.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test Description.vi"/>
-							<Item Name="Get Test Station.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test Station.vi"/>
-							<Item Name="Get Test.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Test.vi"/>
-							<Item Name="Get UUT Instance.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get UUT Instance.vi"/>
-							<Item Name="Get UUT.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get UUT.vi"/>
-						</Item>
-						<Item Name="gRPC Client" Type="Folder">
-							<Item Name="Create Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Client.vi"/>
-							<Item Name="Destroy Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Destroy Client.vi"/>
-							<Item Name="Metadata Store Client FGV.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Metadata Store Client FGV.vi"/>
-							<Item Name="Recreate Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Recreate Client.vi"/>
-						</Item>
-						<Item Name="Helpers" Type="Folder">
-							<Item Name="Convert From gRPC Alias.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Convert From gRPC Alias.vi"/>
-							<Item Name="Convert From gRPC Metadata Collection.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Convert From gRPC Metadata Collection.vi"/>
-							<Item Name="Create Alias (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Alias (gRPC).vi"/>
-							<Item Name="Create Metadata from JSON Document (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document (gRPC).vim"/>
-							<Item Name="Register Schema (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (gRPC).vim"/>
-						</Item>
-						<Item Name="Query Metadata Instances" Type="Folder">
-							<Item Name="Query Hardware Items.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Hardware Items.vi"/>
-							<Item Name="Query Operators.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Operators.vi"/>
-							<Item Name="Query Software Items.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Software Items.vi"/>
-							<Item Name="Query Test Adapters.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Test Adapters.vi"/>
-							<Item Name="Query Test Descriptions.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Test Descriptions.vi"/>
-							<Item Name="Query Test Stations.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Test Stations.vi"/>
-							<Item Name="Query Tests.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Tests.vi"/>
-							<Item Name="Query UUT Instances.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query UUT Instances.vi"/>
-							<Item Name="Query UUTs.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query UUTs.vi"/>
-						</Item>
-						<Item Name="Schemas" Type="Folder">
-							<Item Name="Register Schema Instances" Type="Folder">
-								<Item Name="Register Schema (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (Path).vi"/>
-								<Item Name="Register Schema (String).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema (String).vi"/>
-							</Item>
-							<Item Name="List Schemas.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/List Schemas.vi"/>
-							<Item Name="Register Schema.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema.vi"/>
-						</Item>
-						<Item Name="Typedefs" Type="Folder">
-							<Item Name="Metadata Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Metadata Collection.ctl"/>
-						</Item>
-						<Item Name="Create Metadata from JSON Document.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document.vi"/>
-						<Item Name="Create Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata.vi"/>
-						<Item Name="Get Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Metadata.vi"/>
-						<Item Name="Query Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Metadata.vi"/>
+						<Item Name="List Schemas.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/List Schemas.vi"/>
+						<Item Name="Register Schema.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Register Schema.vi"/>
+					</Item>
+					<Item Name="Typedefs" Type="Folder">
+						<Item Name="Metadata Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Metadata Collection.ctl"/>
 					</Item>
 					<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/AdvancedString/1D String Array to Delimited String.vi"/>
 					<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Constants.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Constants.vi"/>
+					<Item Name="Create Metadata from JSON Document.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata from JSON Document.vi"/>
+					<Item Name="Create Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Create Metadata.vi"/>
 					<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
-					<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 					<Item Name="Error Strings Global Internal.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Plug-In SDKs/Measurements/Helpers/Error Strings Global Internal.vi"/>
+					<Item Name="Get Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Get Metadata.vi"/>
 					<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/Get System Directory.vi"/>
 					<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
 					<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Plug-In SDKs/Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
@@ -363,6 +359,7 @@
 					<Item Name="ni.measurements.metadata.v1.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/gRPC/Generated APIs/ni/measurements/metadata/v1/ni.measurements.metadata.v1.api.lvlib"/>
 					<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+					<Item Name="Query Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/API/Metadata Store V1/Query Metadata.vi"/>
 					<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/System Directory Type.ctl"/>
 					<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
 					<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Metadata Store V1/Metadata Store Client.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -375,10 +372,6 @@
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Create Hardware Items and Aliases.vi" Type="VI" URL="../Create Hardware Items and Aliases.vi"/>
 			<Item Name="Create Metadata and Aliases.vi" Type="VI" URL="../Create Metadata and Aliases.vi"/>
@@ -387,13 +380,10 @@
 			<Item Name="Create Test Stations and Aliases.vi" Type="VI" URL="../Create Test Stations and Aliases.vi"/>
 			<Item Name="Create UUT Instances and Aliases.vi" Type="VI" URL="../Create UUT Instances and Aliases.vi"/>
 			<Item Name="Create UUTs and Aliases.vi" Type="VI" URL="../Create UUTs and Aliases.vi"/>
-			<Item Name="Discovery Cluster Id.vi" Type="VI" URL="../../Common/Discovery Cluster Id.vi"/>
-			<Item Name="Environment Values.ctl" Type="VI" URL="../../Common/Environment Values.ctl"/>
 			<Item Name="Initialize Data Store Paths.vi" Type="VI" URL="../../Common/Initialize Data Store Paths.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Environment Variable.vi" Type="VI" URL="../../Common/Read Environment Variable.vi"/>
 			<Item Name="Restore Data Store Paths.vi" Type="VI" URL="../../Common/Restore Data Store Paths.vi"/>
 			<Item Name="Test Result Info.ctl" Type="VI" URL="../Test Result Info.ctl"/>
 			<Item Name="Write Environment Variable.vi" Type="VI" URL="../../Common/Write Environment Variable.vi"/>
