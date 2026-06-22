@@ -48,27 +48,20 @@
 						<Item Name="Query Conditions.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Query Conditions.vi"/>
 					</Item>
 					<Item Name="Converters" Type="Folder">
-						<Item Name="New" Type="Folder">
-							<Item Name="Convert from gRPC Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert from gRPC Attribute Values.vi"/>
-							<Item Name="Convert from gRPC Waveform Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert from gRPC Waveform Attribute Values.vi"/>
-							<Item Name="Convert to gRPC Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert to gRPC Attribute Values.vi"/>
-							<Item Name="Convert to gRPC Waveform Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert to gRPC Waveform Attribute Values.vi"/>
-						</Item>
-						<Item Name="Old" Type="Folder">
-							<Item Name="Convert From gRPC Digital Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert From gRPC Digital Waveform.vi"/>
-							<Item Name="Convert From gRPC Spectrum.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert From gRPC Spectrum.vi"/>
-							<Item Name="Convert From gRPC Waveform.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert From gRPC Waveform.vim"/>
-							<Item Name="Convert From Precision Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert From Precision Timestamp.vi"/>
-							<Item Name="Convert To gRPC Spectrum.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert To gRPC Spectrum.vi"/>
-							<Item Name="Convert To gRPC Waveform.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert To gRPC Waveform.vim"/>
-							<Item Name="Convert To Precision Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert To Precision Timestamp.vi"/>
-						</Item>
+						<Item Name="Convert from gRPC Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert from gRPC Attribute Values.vi"/>
+						<Item Name="Convert from gRPC Waveform Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert from gRPC Waveform Attribute Values.vi"/>
+						<Item Name="Convert From Precision Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert From Precision Timestamp.vi"/>
+						<Item Name="Convert to gRPC Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert to gRPC Attribute Values.vi"/>
+						<Item Name="Convert To gRPC Spectrum.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert To gRPC Spectrum.vi"/>
+						<Item Name="Convert to gRPC Waveform Attribute Values.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert to gRPC Waveform Attribute Values.vi"/>
+						<Item Name="Convert To gRPC Waveform.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert To gRPC Waveform.vim"/>
+						<Item Name="Convert To Precision Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert To Precision Timestamp.vi"/>
 					</Item>
-					<Item Name="Get Data Type" Type="Folder">
-						<Item Name="Data Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Data Type.ctl"/>
-						<Item Name="Get Data Type (Condition).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Data Type (Condition).vi"/>
-						<Item Name="Get Data Type (Measurement).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Data Type (Measurement).vi"/>
-						<Item Name="Get Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Data Type.vi"/>
+					<Item Name="Get Value Type" Type="Folder">
+						<Item Name="Get Value Type (Condition).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Value Type (Condition).vi"/>
+						<Item Name="Get Value Type (Measurement).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Value Type (Measurement).vi"/>
+						<Item Name="Get Value Type.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Value Type.vi"/>
+						<Item Name="Value Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Value Type.ctl"/>
 					</Item>
 					<Item Name="gRPC Client" Type="Folder">
 						<Item Name="Create Client.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Client.vi"/>
@@ -94,6 +87,8 @@
 							<Item Name="Publish Condition Batch (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Condition Batch (gRPC).vi"/>
 							<Item Name="Publish Measurement (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (gRPC).vi"/>
 							<Item Name="Publish Measurement Batch (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (gRPC).vi"/>
+							<Item Name="Read Condition Value (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Condition Value (gRPC).vi"/>
+							<Item Name="Read Measurement Value (gRPC).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (gRPC).vi"/>
 						</Item>
 						<Item Name="Malleables" Type="Folder">
 							<Item Name="Create Scalar.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Scalar.vim"/>
@@ -102,25 +97,42 @@
 							<Item Name="Create Value (Measurement Batch).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Value (Measurement Batch).vim"/>
 							<Item Name="Create Value (Measurement).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Value (Measurement).vim"/>
 							<Item Name="Create Vector.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Vector.vim"/>
+							<Item Name="Create Vectors.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Vectors.vim"/>
+							<Item Name="Create Waveform Data Batch.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Waveform Data Batch.vim"/>
 							<Item Name="Create Waveform Data.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Waveform Data.vim"/>
-							<Item Name="Get Data (gRPC).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Data (gRPC).vim"/>
 							<Item Name="Scale Factory.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Scale Factory.vim"/>
 							<Item Name="Set Waveform Measurement Value.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Set Waveform Measurement Value.vim"/>
-							<Item Name="Use Waveform Timestamp (If Unset).vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Use Waveform Timestamp (If Unset).vim"/>
+							<Item Name="Set Waveform Measurement Values.vim" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Set Waveform Measurement Values.vim"/>
 						</Item>
 						<Item Name="Convert from gRPC Published Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert from gRPC Published Measurement.vi"/>
 						<Item Name="Convert to gRPC Test Result.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Convert to gRPC Test Result.vi"/>
 						<Item Name="Create gRPC Batch Publish Request.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create gRPC Batch Publish Request.vi"/>
 						<Item Name="Create gRPC Publish Request.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create gRPC Publish Request.vi"/>
+						<Item Name="Create I16 Complex Waveform and Scale.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create I16 Complex Waveform and Scale.vi"/>
 						<Item Name="Format Error Data for Publishing Data.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Format Error Data for Publishing Data.vi"/>
 						<Item Name="Get Scalar Unit Attribute.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Get Scalar Unit Attribute.vi"/>
 					</Item>
 					<Item Name="Measurements" Type="Folder">
 						<Item Name="Publish Measurement Batch Instances" Type="Folder">
+							<Item Name="Publish Measurement Batch (2D Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (2D Boolean Array).vi"/>
+							<Item Name="Publish Measurement Batch (2D DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (2D DBL Array).vi"/>
+							<Item Name="Publish Measurement Batch (2D I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (2D I32 Array).vi"/>
+							<Item Name="Publish Measurement Batch (2D String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (2D String Array).vi"/>
 							<Item Name="Publish Measurement Batch (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (Boolean Array).vi"/>
+							<Item Name="Publish Measurement Batch (Boolean Arrays).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (Boolean Arrays).vi"/>
+							<Item Name="Publish Measurement Batch (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (DBL Analog Waveform).vi"/>
 							<Item Name="Publish Measurement Batch (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (DBL Array).vi"/>
+							<Item Name="Publish Measurement Batch (DBL Arrays).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (DBL Arrays).vi"/>
+							<Item Name="Publish Measurement Batch (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (DBL Complex Waveform).vi"/>
+							<Item Name="Publish Measurement Batch (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (DBL Spectrum).vi"/>
+							<Item Name="Publish Measurement Batch (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (Digital Waveform).vi"/>
+							<Item Name="Publish Measurement Batch (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (I16 Analog Waveform).vi"/>
+							<Item Name="Publish Measurement Batch (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (I16 Complex Waveform).vi"/>
 							<Item Name="Publish Measurement Batch (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (I32 Array).vi"/>
+							<Item Name="Publish Measurement Batch (I32 Arrays).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (I32 Arrays).vi"/>
 							<Item Name="Publish Measurement Batch (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (String Array).vi"/>
+							<Item Name="Publish Measurement Batch (String Arrays).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (String Arrays).vi"/>
+							<Item Name="Publish Measurement Batch (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement Batch (XY).vi"/>
 						</Item>
 						<Item Name="Publish Measurement Instances" Type="Folder">
 							<Item Name="Publish Measurement (Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement (Boolean).vi"/>
@@ -144,42 +156,28 @@
 						<Item Name="Publish Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Publish Measurement.vi"/>
 						<Item Name="Query Measurements.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Query Measurements.vi"/>
 					</Item>
-					<Item Name="Read Data" Type="Folder">
-						<Item Name="Read Data from Condition Instances" Type="Folder">
-							<Item Name="Read Data from Condition (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Condition (Boolean Array).vi"/>
-							<Item Name="Read Data from Condition (Double Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Condition (Double Array).vi"/>
-							<Item Name="Read Data from Condition (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Condition (I32 Array).vi"/>
-							<Item Name="Read Data from Condition (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Condition (String Array).vi"/>
+					<Item Name="Read Values" Type="Folder">
+						<Item Name="Read Condition Value Instances" Type="Folder">
+							<Item Name="Read Condition Value (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Condition Value (Boolean Array).vi"/>
+							<Item Name="Read Condition Value (Double Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Condition Value (Double Array).vi"/>
+							<Item Name="Read Condition Value (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Condition Value (I32 Array).vi"/>
+							<Item Name="Read Condition Value (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Condition Value (String Array).vi"/>
 						</Item>
-						<Item Name="Read Data from Measurement Instances" Type="Folder">
-							<Item Name="Read Data from Measurement (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (Boolean Array).vi"/>
-							<Item Name="Read Data from Measurement (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Array).vi"/>
-							<Item Name="Read Data from Measurement (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I32 Array).vi"/>
-							<Item Name="Read Data from Measurement (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (String Array).vi"/>
-							<Item Name="Read Data from Measurement (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Analog Waveform).vi"/>
-							<Item Name="Read Data from Measurement (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Complex Waveform).vi"/>
-							<Item Name="Read Data from Measurement (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (DBL Spectrum).vi"/>
-							<Item Name="Read Data from Measurement (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (Digital Waveform).vi"/>
-							<Item Name="Read Data from Measurement (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I16 Analog Waveform).vi"/>
-							<Item Name="Read Data from Measurement (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (I16 Complex Waveform).vi"/>
-							<Item Name="Read Data from Measurement (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement (XY).vi"/>
+						<Item Name="Read Measurement Value Instances" Type="Folder">
+							<Item Name="Read Measurement Value (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (Boolean Array).vi"/>
+							<Item Name="Read Measurement Value (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (DBL Array).vi"/>
+							<Item Name="Read Measurement Value (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (I32 Array).vi"/>
+							<Item Name="Read Measurement Value (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (String Array).vi"/>
+							<Item Name="Read Measurement Value (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (DBL Analog Waveform).vi"/>
+							<Item Name="Read Measurement Value (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (DBL Complex Waveform).vi"/>
+							<Item Name="Read Measurement Value (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (DBL Spectrum).vi"/>
+							<Item Name="Read Measurement Value (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (Digital Waveform).vi"/>
+							<Item Name="Read Measurement Value (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (I16 Analog Waveform).vi"/>
+							<Item Name="Read Measurement Value (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (I16 Complex Waveform).vi"/>
+							<Item Name="Read Measurement Value (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value (XY).vi"/>
 						</Item>
-						<Item Name="Read Data Instances" Type="Folder">
-							<Item Name="Read Data (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (Boolean Array).vi"/>
-							<Item Name="Read Data (DBL Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Array).vi"/>
-							<Item Name="Read Data (I32 Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I32 Array).vi"/>
-							<Item Name="Read Data (String Array).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (String Array).vi"/>
-							<Item Name="Read Data (DBL Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Analog Waveform).vi"/>
-							<Item Name="Read Data (DBL Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Complex Waveform).vi"/>
-							<Item Name="Read Data (DBL Spectrum).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (DBL Spectrum).vi"/>
-							<Item Name="Read Data (Digital Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (Digital Waveform).vi"/>
-							<Item Name="Read Data (I16 Analog Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I16 Analog Waveform).vi"/>
-							<Item Name="Read Data (I16 Complex Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (I16 Complex Waveform).vi"/>
-							<Item Name="Read Data (XY).vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data (XY).vi"/>
-						</Item>
-						<Item Name="Read Data from Condition.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Condition.vi"/>
-						<Item Name="Read Data from Measurement.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data from Measurement.vi"/>
-						<Item Name="Read Data.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Data.vi"/>
+						<Item Name="Read Condition Value.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Condition Value.vi"/>
+						<Item Name="Read Measurement Value.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Read Measurement Value.vi"/>
 					</Item>
 					<Item Name="Steps" Type="Folder">
 						<Item Name="Create Step.vi" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Data Store V1/Create Step.vi"/>
@@ -233,8 +231,6 @@
 					<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 					<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 					<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Plug-In SDKs/Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
-					<Item Name="NI Moniker V1 Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/API/Moniker V1/NI Moniker V1 Client.lvlib"/>
-					<Item Name="ni.datamonikers.v1.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/gRPC/Generated APIs/ni/datamonikers/v1/ni.datamonikers.v1.api.lvlib"/>
 					<Item Name="ni.measurementlink.discovery.v1.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.api.lvlib"/>
 					<Item Name="ni.measurements.data.v1.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/gRPC/Generated APIs/ni/measurements/data/v1/ni.measurements.data.v1.api.lvlib"/>
 					<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Data Store V1/Data Store Client.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
