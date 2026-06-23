@@ -1,12 +1,10 @@
-# Migrate VIs For Renames
-This utility will update customer code to account for any VI or control renames that have been made in the MDS LabVIEW API. This will help customers get their applications back up and running more quickly than manually replacing each renamed node.
+# Replace Deprecated Nodes
+This utility will update customer code to account for any VIs or controls that have been deprecated in the MDS LabVIEW API. The utility will replace those deprecated nodes with their new preferred versions. This will help customers clean up their applications more quickly than manually replacing each deprecated node.
 
 ## How To Use
-1. Open MigrateFilesForRenames.vi
+1. Open ReplaceDeprecatedNodes.vi
 2. Select the root directory for your user code
-3. Run the VI. The utility will find all .ctl and .vi files in the selected directory and migrate them appropriately.
+3. Run the VI. The utility will find all .ctl and .vi files in the selected directory and replace nodes as appropriate.
 
-## PolyVI Caveat
-This migration tool can only replace PolySubVI nodes if the PolyVI node and its instances have been deprecated and still exist on disk. Many MDS LabVIEW API nodes are PolyVIs, so developers of this API should deprecate PolyVIs and PolyVI instances rather than simply renaming them.
-
-Other node types like standard SubVI calls, controls, indicators, and constants do not have this restriction and can be migrated if renamed.
+## Assumptions
+The current version of this utility assumes that the deprecated and new versions of the files exist in the same directory. If deprecations occur where the new file moves to a different directory, changes will need to be made to this utility to handle that.
