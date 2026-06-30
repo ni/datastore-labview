@@ -2,70 +2,62 @@
     "NamePairs": [
         {
             "OldName": "Read Data from Condition (Boolean Array).vi",
-            "NewName": "Read Condition Value (Boolean Array).vi"
+            "NewName": "Read Condition Value.vi"
         },
         {
             "OldName": "Read Data from Condition (Double Array).vi",
-            "NewName": "Read Condition Value (Double Array).vi"
+            "NewName": "Read Condition Value.vi"
         },
         {
             "OldName": "Read Data from Condition (I32 Array).vi",
-            "NewName": "Read Condition Value (I32 Array).vi"
+            "NewName": "Read Condition Value.vi"
         },
         {
             "OldName": "Read Data from Condition (String Array).vi",
-            "NewName": "Read Condition Value (String Array).vi"
-        },
-        {
-            "OldName": "Read Data from Condition.vi",
             "NewName": "Read Condition Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (Boolean Array).vi",
-            "NewName": "Read Measurement Value (Boolean Array).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (DBL Analog Waveform).vi",
-            "NewName": "Read Measurement Value (DBL Analog Waveform).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (DBL Array).vi",
-            "NewName": "Read Measurement Value (DBL Array).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (DBL Complex Waveform).vi",
-            "NewName": "Read Measurement Value (DBL Complex Waveform).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (DBL Spectrum).vi",
-            "NewName": "Read Measurement Value (DBL Spectrum).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (Digital Waveform).vi",
-            "NewName": "Read Measurement Value (Digital Waveform).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (I16 Analog Waveform).vi",
-            "NewName": "Read Measurement Value (I16 Analog Waveform).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (I16 Complex Waveform).vi",
-            "NewName": "Read Measurement Value (I16 Complex Waveform).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (I32 Array).vi",
-            "NewName": "Read Measurement Value (I32 Array).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (String Array).vi",
-            "NewName": "Read Measurement Value (String Array).vi"
+            "NewName": "Read Measurement Value.vi"
         },
         {
             "OldName": "Read Data from Measurement (XY).vi",
-            "NewName": "Read Measurement Value (XY).vi"
-        },
-        {
-            "OldName": "Read Data from Measurement.vi",
             "NewName": "Read Measurement Value.vi"
         },
         {
@@ -75,10 +67,6 @@
         {
             "OldName": "Get Data Type (Measurement).vi",
             "NewName": "Get Value Type (Measurement).vi"
-        },
-        {
-            "OldName": "Get Data Type.vi",
-            "NewName": "Get Value Type.vi"
         },
         {
             "OldName": "Data Type.ctl",
