@@ -8,7 +8,6 @@ software installed.
 
 1. LabVIEW 2026 Q1 Patch 1 (or newer)
 2. NI Measurement Data Services 26Q3
-   - NI Measurement Data Services is installed as a recommended install when installing LabVIEW.
    - These examples are not compatible with versions older than NI Measurement Data Services 26Q3.
 
 ## Running the Examples
